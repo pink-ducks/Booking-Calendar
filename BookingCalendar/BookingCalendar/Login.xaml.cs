@@ -23,5 +23,11 @@ namespace BookingCalendar
         {
             InitializeComponent();
         }
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
     }
 }
