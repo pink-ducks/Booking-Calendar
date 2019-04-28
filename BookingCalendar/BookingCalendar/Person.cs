@@ -8,5 +8,11 @@ namespace BookingCalendar
 {
     class Person
     {
+        public string name { get; set; }
+        public string surname { get; set; }
+        public int age { get; set; }
+        public string sex { get; set; }
+        public string mail { get; set; }
+        public string phoneNumber { get; set; }
     }
 }

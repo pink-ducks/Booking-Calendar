@@ -8,5 +8,6 @@ namespace BookingCalendar
 {
     class Doctor
     {
+        public string doctorID { get; set; }
     }
 }

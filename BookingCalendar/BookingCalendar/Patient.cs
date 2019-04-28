@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BookingCalendar
 {
-    class Patient
+    public class Patient
     {
+         public string patientID { get; set; }
     }
 }
