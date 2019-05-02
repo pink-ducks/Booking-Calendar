@@ -53,8 +53,8 @@
                 <ColumnDefinition Width="0.5*"/>
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" x:Name="GoBackButton" Click="GoBackButton_Click" Margin="20 50 20 20" FontSize="20" FontWeight="Bold" Content="Go back" Width="150" Height="30" Background="MediumSpringGreen" />
-            <Button Grid.Column="1" x:Name="RegisterButton" Click="RegisterButton_Click" Margin="20 50 20 20" FontSize="20" FontWeight="Bold" Content="Sign Up" Width="150" Height="30" Background="MediumSpringGreen" />
+            <Button Grid.Column="0" x:Name="GoBackButton" Click="GoBackButton_Click" Margin="157,27,65.8,43" FontSize="20" FontWeight="Bold" Content="Go back" Width="150" Height="30" Background="MediumSpringGreen" />
+            <Button Grid.Column="1" x:Name="RegisterButton" Click="RegisterButton_Click" Margin="30.2,27,192.6,43" FontSize="20" FontWeight="Bold" Content="Sign Up" Width="150" Height="30" Background="MediumSpringGreen" />
         </Grid>
     </StackPanel>
 </Window>

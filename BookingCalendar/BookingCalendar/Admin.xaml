@@ -1,0 +1,20 @@
+﻿<Window x:Class="BookingCalendar.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookingCalendar"
+        mc:Ignorable="d"
+        Title="Admin" Height="450" Width="800">
+    <Grid>
+        <Label Content="Doctor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,60,0,0" FontSize="16" Height="36" Width="136"/>
+        <Label Content="Patient" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,216,0,0" FontSize="16" Height="36" Width="136"/>
+        <Button Content="Add Doctor" HorizontalAlignment="Left" Margin="86,131,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click" Background="MediumSpringGreen" Height="40"/>
+        <Button Content="Delete Doctor" HorizontalAlignment="Left" Margin="274,131,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click" Background="MediumSpringGreen" Height="40"/>
+        <Button Content="Show day shedule" HorizontalAlignment="Left" Margin="450,131,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click" Background="MediumSpringGreen" Height="40"/>
+        <Button Content="Add Patient" HorizontalAlignment="Left" Margin="138,280,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click" Background="MediumSpringGreen" Height="40"/>
+        <Button Content="Delete Patient" HorizontalAlignment="Left" Margin="347,280,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click" Background="MediumSpringGreen" Height="40"/>
+        <Button Content="Edit patient info" HorizontalAlignment="Left" Margin="545,280,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click" Background="MediumSpringGreen" Height="40"/>
+        <Button Content="Edit doctor info" HorizontalAlignment="Left" Margin="612,131,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click" Background="MediumSpringGreen" Height="40"/>
+    </Grid>
+</Window>

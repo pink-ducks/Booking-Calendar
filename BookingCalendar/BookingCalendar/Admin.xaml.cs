@@ -15,28 +15,13 @@ using System.Windows.Shapes;
 namespace BookingCalendar
 {
     /// <summary>
-    /// Interaction logic for Calender.xaml
+    /// Interaction logic for Admin.xaml
     /// </summary>
-    public partial class Calender : Window
+    public partial class Admin : Window
     {
-        public Calender()
+        public Admin()
         {
             InitializeComponent();
-        }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

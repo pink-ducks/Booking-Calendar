@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="Calender" Height="450" Width="800">
     <Grid>
-        <Calendar HorizontalAlignment="Left" Margin="147,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="185" Width="505">
+        <Calendar HorizontalAlignment="Left" Margin="3,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="183" Width="402" >
             <Calendar.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -22,7 +22,7 @@
                 <CalendarDateRange Start="3/5/2010" End="3/5/2019" />
             </Calendar.BlackoutDates>
         </Calendar>
-        <ComboBox Margin="274,109,254.6,280">
+        <ComboBox Margin="272,79,256.6,310" Background="MediumSpringGreen">
             <ComboBoxItem Content="Gregory House"></ComboBoxItem>
             <ComboBoxItem Content="Erik Foreman"></ComboBoxItem>
             <ComboBoxItem Content="Robert Chase"></ComboBoxItem>
@@ -32,6 +32,9 @@
         </ComboBox>
 
 
-        <Label Content="Choose a doctor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="347,57,0,0" FontSize="16"/>
+        <Label Content="Choose a doctor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="326,38,0,0" FontSize="16" Height="36" Width="136"/>
+        <CheckBox Content="Trzeba tu przetrasnpotować jakoś dane &#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="461,181,0,0" Height="141" Width="257"/>
+        <Label Content="Available visits " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="449,140,0,0" FontSize="16" Height="36" Width="136"/>
+        <Button Content="Check" HorizontalAlignment="Left" Margin="156,345,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Background="MediumSpringGreen"/>
     </Grid>
 </Window>
