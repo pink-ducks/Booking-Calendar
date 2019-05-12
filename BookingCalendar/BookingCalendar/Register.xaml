@@ -19,7 +19,7 @@
                 <ColumnDefinition Width="0.6*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Name " Foreground="Black" FontSize="50" HorizontalAlignment="Left"/>
-            <TextBox Grid.Column="1" Name="nametxt" Background="MediumSpringGreen" Foreground="White" FontSize="20"/>
+            <TextBox Grid.Column="1" Name="nametxt" Background="grey" Foreground="White" FontSize="20" TextChanged="Nametxt_TextChanged"/>
         </Grid>
         <!--lastname-->
         <Grid Margin="24,24,24,24">
@@ -28,7 +28,7 @@
                 <ColumnDefinition Width="197*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Last name " Foreground="Black" FontSize="50" HorizontalAlignment="Left" Margin="0,0,0,0.2" Width="248"/>
-            <TextBox Grid.Column="1" Name="lastnametxt" Background="MediumSpringGreen" Foreground="White" FontSize="20" Margin="2,0,-0.4,0.2"/>
+            <TextBox Grid.Column="1" Name="lastnametxt" Background="grey" Foreground="White" FontSize="20" Margin="2,0,-0.4,0.2" TextChanged="Lastnametxt_TextChanged"/>
         </Grid>
         <!--age-->
         <Grid Margin="24,24,24,24">
@@ -37,7 +37,7 @@
                 <ColumnDefinition Width="197*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Age " Foreground="Black" FontSize="50" HorizontalAlignment="Left" Margin="0,0,0,0.2" Width="248"/>
-            <TextBox Grid.Column="1" Name="agetxt" Background="MediumSpringGreen" Foreground="White" FontSize="20" Margin="2,0,-0.4,0.2"/>
+            <TextBox Grid.Column="1" Name="agetxt" Background="grey" Foreground="White" FontSize="20" Margin="2,0,-0.4,0.2"/>
         </Grid>
         <!--lastname-->
         <Grid Margin="24,24,24,24">
@@ -46,7 +46,7 @@
                 <ColumnDefinition Width="197*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Password " Foreground="Black" FontSize="50" HorizontalAlignment="Left" Margin="0,0,0,0.2" Width="248"/>
-            <TextBox Grid.Column="1" Name="passwordtxt" Background="MediumSpringGreen" Foreground="White" FontSize="20" Margin="2,0,-0.4,0.2"/>
+            <TextBox Grid.Column="1" Name="passwordtxt" Background="grey" Foreground="White" FontSize="20" Margin="2,0,-0.4,0.2"/>
         </Grid>
         <Grid Margin="24,24,24,24">
             <Grid.ColumnDefinitions>

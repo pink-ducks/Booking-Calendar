@@ -29,5 +29,15 @@ namespace BookingCalendar
         private void GoBackButton_Click(object sender, RoutedEventArgs e)
         {
         }
+
+        private void Nametxt_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Lastnametxt_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
