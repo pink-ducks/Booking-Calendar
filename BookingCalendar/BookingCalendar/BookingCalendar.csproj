@@ -58,12 +58,14 @@
     <Compile Include="Admin.xaml.cs">
       <DependentUpon>Admin.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AdminContainer.cs" />
     <Compile Include="Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Calender.xaml.cs">
       <DependentUpon>Calender.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ISingletonContainer.cs" />
     <Compile Include="Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
@@ -87,7 +89,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Admin.cs" />
+    <Compile Include="AdminClass.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>

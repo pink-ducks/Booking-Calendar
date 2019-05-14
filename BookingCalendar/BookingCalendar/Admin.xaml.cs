@@ -17,9 +17,9 @@ namespace BookingCalendar
     /// <summary>
     /// Interaction logic for Admin.xaml
     /// </summary>
-    public partial class Admin : Window
+    public partial class AdminClass : Window
     {
-        public Admin()
+        public AdminClass()
         {
             InitializeComponent();
         }

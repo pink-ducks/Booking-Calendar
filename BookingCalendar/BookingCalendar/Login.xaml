@@ -19,7 +19,7 @@
                 <ColumnDefinition Width="0.6*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Username " Foreground="Black" FontSize="50" HorizontalAlignment="Left"/>
-            <TextBox Grid.Column="1" Name="logintxt" Background="grey" Foreground="White" FontSize="20"/>
+            <TextBox Grid.Column="1" Name="logintxt" Background="White" Foreground="White" FontSize="20"/>
         </Grid>
         <!--haslo-->
         <Grid Margin="24,24,24,24">
@@ -28,7 +28,7 @@
                 <ColumnDefinition Width="197*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="Password " Foreground="Black" FontSize="50" HorizontalAlignment="Left" Margin="0,0,0,0.2" Width="248"/>
-            <TextBox Grid.Column="1" Name="haslotxt" Background="grey" Foreground="White" FontSize="20" Margin="2,0,-0.4,0.2"/>
+            <TextBox Grid.Column="1" Name="haslotxt" Background="White" Foreground="White" FontSize="20" Margin="2,0,-0.4,0.2"/>
         </Grid>
         <Grid Margin="24,24,24,24">
             <Grid.ColumnDefinitions>
